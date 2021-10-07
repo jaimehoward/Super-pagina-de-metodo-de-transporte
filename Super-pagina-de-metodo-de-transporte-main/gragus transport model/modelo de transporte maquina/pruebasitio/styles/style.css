@@ -4,7 +4,33 @@ body{
   margin-bottom: 20px;
 }
 
-.informacion{
+#first{
+  margin-right: 60%;
+}
+
+.a{
+  color: #000000;
+  margin-right: 2%;
+  padding: 16px 6px 16px 10px;
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  float: right;
+  top: 0;
+  font-size: 15px;
+  text-decoration:none
+}
+
+.a:hover{
+  text-decoration: underline;
+}
+
+.barra{
+  padding: 10px 6px 10px 10px;
+  margin-left: 1.8%;
+}
+
+.logo{
+  padding: 10px 6px 10px 10px;
+  margin-left: 6.5%;
 }
 
 .izquierda{
@@ -16,6 +42,32 @@ body{
   margin-left: 50%;
 }
 
+.contenedor{
+  max-height: 1080px;
+}
+
+.b{
+
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  background: #f4f2f2;
+  padding: 50px 30px;
+  max-width: 360px;
+  border-radius: 8px;
+}
+
+#i1{
+  margin-left: 10%;
+  top: calc(150%);
+}
+
+#i2{
+  margin-left: 65%;
+  top: calc(260%);
+}
+
 .b1, .b2, .b3{
   width: 100%;
 }
@@ -24,13 +76,13 @@ body{
   font-size: 40px;
   font-weight: bolder;
   text-align: center;
-  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 .button1 {
   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color:white;
-  border: 2px Solid green;
+  background-color:#f4f2f2;
+  border: 2px Solid #ff5e00;
   color: Black;
   text-align: center;
   text-decoration: none;
@@ -47,14 +99,14 @@ body{
 }
 
 .button1:hover, .button2:hover, .button3:hover {
-  background-color: #24D155;
+  background-color: #ff5e00;
   color: White;
 }
 
 .disabled {
   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color:white;
-  border: 2px Solid #24D155;
+  background-color:#f4f2f2;
+  border: 2px Solid #1100ff;
   color: Black;
   text-align: center;
   text-decoration: none;
@@ -72,30 +124,22 @@ body{
 
 .boton {
   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color: #24D155;
-  border: 3px solid #208513;
-  color: rgb(255, 255, 255);
+  background-color: white;
+  color: #000000;
   text-align: center;
   font-size: 32px;
   cursor: pointer;
   float: right;
   width: 20%;
-  height: 120px;
+  height: 50px;
   transition-duration: 0.4s;
-}
-
-.botonesinicio{
-  width: 100%;
-  position: fixed;
-  top: 0;
-}
-
-.botonesinicio .boton:not(:last-child) {
   border-right: none;
 }
 
-.botonesinicio .boton:hover {
-  background-color: #24D155;
+
+.boton:hover {
+  bottom: 9px;
+  width: calc(100% - 16px);
 }
 
 .body1{
@@ -132,6 +176,3 @@ p{
 
 }
 
-
-.logo {
-}
