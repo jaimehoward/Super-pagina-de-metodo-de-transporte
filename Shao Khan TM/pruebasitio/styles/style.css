@@ -5,13 +5,24 @@ body{
 }
 
 #first{
-  margin-right: 53%;
+  margin-right: 60%;
 }
 
-.raton{
-  max-width: 335;
-  display: inline-block;
-  margin: 0 -1.9px;
+.t1, .t2, .t3, .t4{
+  transition-duration:  0.6s;
+  width: 25%;
+  height: 1080px;
+  margin: 0;
+  float:left;
+}
+
+.logo{
+  height: 30px; 
+  width: 6.3%;
+}
+
+#raton{
+  margin: 0 0 0 -4.1px;
 }
 
 .cum{
@@ -53,12 +64,7 @@ body{
   margin-left: 50%;
 }
 
-.contenedor{
-  max-height: 1080px;
-}
-
 .b{
-
   font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
   position: absolute;
   z-index: 1;
@@ -67,6 +73,7 @@ body{
   padding: 50px 30px;
   max-width: 360px;
   border-radius: 8px;
+  font-size: 16px;
 }
 
 #i1{
@@ -82,10 +89,6 @@ body{
 #i3{
   margin-left: 10%;
   top: calc(47%);
-}
-
-.b1, .b2, .b3{
-  width: 100%;
 }
 
 .title {
@@ -114,7 +117,7 @@ body{
   position: absolute;
 }
 
-.button1:hover, .button2:hover, .button3:hover {
+.button1:hover {
   background-color: #ff5e00;
   color: White;
 }
@@ -194,4 +197,24 @@ p{
 
 .bg{
   margin: 0px 0px -3.9px;
+}
+
+@media (max-width: 1366px) {
+
+  .t1, .t2, .t3, .t4{
+    transition: width 0.6s;
+    width: 25%;
+    height: 768px;
+    margin: 0s;
+  }
+
+  #first{
+    margin-right: 53%;
+  }
+
+  .logo{
+    height: 27px; 
+    width: 6.3%;
+  }
+
 }
