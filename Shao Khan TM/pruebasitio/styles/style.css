@@ -1,0 +1,197 @@
+body{
+  margin: 0;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+#first{
+  margin-right: 53%;
+}
+
+.raton{
+  max-width: 335;
+  display: inline-block;
+  margin: 0 -1.9px;
+}
+
+.cum{
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.a{
+  color: #000000;
+  margin-right: 2%;
+  padding: 16px 6px 16px 10px;
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  float: right;
+  top: 0;
+  font-size: 15px;
+  text-decoration:none
+}
+
+.a:hover{
+  text-decoration: underline;
+}
+
+.barra{
+  padding: 10px 6px 10px 10px;
+  margin-left: 1.8%;
+}
+
+.logo{
+  padding: 10px 6px 10px 10px;
+  margin-left: 6.5%;
+}
+
+.izquierda{
+  margin-right: 50%;
+
+}
+
+.derecha{
+  margin-left: 50%;
+}
+
+.contenedor{
+  max-height: 1080px;
+}
+
+.b{
+
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  background: #f4f2f2;
+  padding: 50px 30px;
+  max-width: 360px;
+  border-radius: 8px;
+}
+
+#i1{
+  margin-left: 10%;
+  top: calc(150%);
+}
+
+#i2{
+  margin-left: 65%;
+  top: calc(260%);
+}
+
+#i3{
+  margin-left: 10%;
+  top: calc(47%);
+}
+
+.b1, .b2, .b3{
+  width: 100%;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+.button1 {
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color:#f4f2f2;
+  border: 2px Solid #ff5e00;
+  color: Black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 16%;
+  margin-right: 20%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 20%;
+  top: 50%;
+  position: absolute;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
+  background-color: #ff5e00;
+  color: White;
+}
+
+.disabled {
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color:#f4f2f2;
+  border: 2px Solid #1100ff;
+  color: Black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 500px;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.boton {
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  font-size: 32px;
+  cursor: pointer;
+  float: right;
+  width: 20%;
+  height: 50px;
+  transition-duration: 0.4s;
+  border-right: none;
+}
+
+
+.boton:hover {
+  bottom: 9px;
+  width: calc(100% - 16px);
+}
+
+.body1{
+  padding-left: 170px;
+  padding-right: 170px;
+  width: 100%;
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  color: #000;
+  display: table;
+}
+
+.inbody1{
+  padding-right: 22px;
+  width: 40.3%;
+  float: left;
+}
+
+.inbody2{
+  width: 40.3%;
+  float: left;
+}
+
+.xd{
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+p{
+  margin-top: 10px;
+  line-height: 20px;
+
+}
+
+.bg{
+  margin: 0px 0px -3.9px;
+}
