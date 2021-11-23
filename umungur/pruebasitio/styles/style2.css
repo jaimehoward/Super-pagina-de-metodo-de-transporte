@@ -138,6 +138,17 @@ body{
     max-width: 300px;
     border-radius: 8px;
   }
+
+    .bb{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background: #f4f2f2;
+    padding: 50px 30px;
+    max-width: 50000px;
+    border-radius: 8px;
+  }
   
   .c{
     font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -307,3 +318,77 @@ body{
     }
   }
   
+  .tabs {
+    position: relative;   
+    min-height: 200px;
+    clear: both;
+    margin: 25px 0;
+}
+.tab {
+    float: left;
+}
+.tab label {
+    background: #eee; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    margin-left: -1px; 
+    position: relative;
+    left: 1px; 
+}
+.tab [type=radio] {
+    display: none;   
+}
+.content {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: white;
+    right: 0;
+    bottom: -20%;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    overflow: hidden;
+}
+.content > * {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    
+    -webkit-transform: translateX(-100%);
+    -moz-transform:    translateX(-100%);
+    -ms-transform:     translateX(-100%);
+    -o-transform:      translateX(-100%);
+    
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -ms-transition:     all 0.6s ease;
+    -o-transition:      all 0.6s ease;
+}
+[type=radio]:checked ~ label {
+    background: white;
+    border-bottom: 1px solid white;
+    z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+    z-index: 1;
+}
+[type=radio]:checked ~ label ~ .content > * {
+    opacity: 1;
+    
+    -webkit-transform: translateX(0);
+    -moz-transform:    translateX(0);
+    -ms-transform:     translateX(0);
+    -o-transform:      translateX(0);
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    width: 480px; text-align: left;    border-collapse: collapse; }
+
+th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }}
