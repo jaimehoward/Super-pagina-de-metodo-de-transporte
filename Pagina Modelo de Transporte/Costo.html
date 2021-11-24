@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costo Minimo</title>
+    <link href="styles/style2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="top">
+        <img class="logo" src="images/logotrans.png" height="30px" width="6.3%" alt="logo">
+        <img class="barra" src="images/barra.png" height="25px" width="0.12%" alt="logo">
+        <a class="a" id="first" href="">Amonger</a>
+        <a class="a" href="">Acerca de</a>
+        <a class="a" href="">Contacto</a>
+        <a class="a" href="index.html">Inicio</a>
+        </div>
+
+      <div class="encabezado">
+        <img class="dentro" src="images/logo2.png" width="100%" heigth="100%" alt="logo2">
+        <img src="images/enc1.png" width="100%" height="100%" alt="encabezado">
+        <input class="buscar" type="search" placeholder="Proximamente" required>
+      </div>
+
+      <div class= "contenedor">
+        <img class="bg" id="omegalul" src="images/bg5.png" width="100%" heigth="100%" alt="fondo">
+        <div class="b" id="i2">
+          <h2>¿Que es el metodo de Costo Minimo?</h2>
+          <p class="amonger">El metodo de Costo Minimo es un algoritmo desarrollado con el objetivo de resolver problemas de transporte o distribucion.</p>
+        </div>
+      </div>
+
+          <div class="moger">
+            <img class="bg" src="images/Fab1.jpg" width="100%" height="100%" alt="Fabrica">
+          </div>
+            <div class="bosom" id="i3">
+              <h2>¿Como se usa?</h2>
+              <p>El metodo de Costo Minimo es muy sencilo de aplicar.</p>
+              <p>Se debe identificar el camino de menor costo de todas las columnas y filas y asignarle la mayor cantidad de producto disponible, una vez terminado este proceso, se debe repetir hasta cumplir con la demanda.</p>
+            </div>
+
+             <div class="moger">
+            <img class="bg" src="images/Fab2.png" width="100%" height="100%" alt="Fabrica">
+          </div>
+
+            <div style="top: 310%;" class="bb" id="i3">
+
+              <h2>¿Como se veria?</h2>
+              <p>Ahora veremos un ejemplo de un problema de transporte resuelto con el metodo de Costo Minimo.</p>
+               <div class="tabs">
+
+          <div style="top: 300%;" class="tab">
+              <input type="radio" id="tab-1" name="tab-group-1" checked>
+              <label for="tab-1">Costos</label>
+
+              <div class="content">
+                  <table>
+                    <body>
+        <table >
+            <tr> <th>-</th> <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>Oferta</th>
+            </tr>
+            <tr> <td>1</td> <td>10</td> <td>2</td> <td>20</td> <td>11</td> <td>15</td>
+            </tr>
+            <tr> <td>2</td> <td>12</td> <td>7</td> <td>9</td> <td>20</td> <td>25</td>
+            </tr>
+            <tr> <td>3</td> <td>4</td> <td>14</td> <td>16</td> <td>18</td> <td>10</td>
+            </tr>
+            <tr> <td>Demanda</td> <td>5</td> <td>15</td> <td>15</td> <td>15</td> <td>50/50</td>
+            </tr>
+        </table>
+      </body>
+                  </table>
+              </div>
+          </div>
+
+          <div class="tab">
+              <input type="radio" id="tab-2" name="tab-group-1">
+              <label for="tab-2">1</label>
+
+              <div class="content">
+
+            <table >
+                <tr> <th>-</th> <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>Oferta</th>
+                </tr>
+                <tr> <td>1</td> <td>-</td> <td>15</td> <td>-</td> <td>-</td> <td>15</td>
+                </tr>
+                <tr> <td>2</td> <td>0</td> <td>-</td> <td>0</td> <td>0</td> <td>25</td>
+                </tr>
+                <tr> <td>3</td> <td>0</td> <td>-</td> <td>0</td> <td>0</td> <td>10</td>
+                </tr>
+                <tr> <td>Demanda</td> <td>5</td> <td>15</td> <td>15</td> <td>15</td> <td>50/50</td>
+                </tr>
+        </table>
+              </div>
+          </div>
+
+          <div class="tab">
+            <input type="radio" id="tab-3" name="tab-group-1">
+            <label for="tab-3">2</label>
+
+            <div class="content">
+
+          <table >
+              <tr> <th>-</th> <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>Oferta</th>
+              </tr>
+              <tr> <td>1</td> <td>-</td> <td>15</td> <td>-</td> <td>-</td> <td>15</td>
+              </tr>
+              <tr> <td>2</td> <td>-</td> <td>-</td> <td>0</td> <td>0</td> <td>25</td>
+              </tr>
+              <tr> <td>3</td> <td>5</td> <td>-</td> <td>0</td> <td>0</td> <td>10</td>
+              </tr>
+              <tr> <td>Demanda</td> <td>5</td> <td>15</td> <td>15</td> <td>15</td> <td>50/50</td>
+              </tr>
+      </table>
+            </div>
+        </div>
+
+        <div class="tab">
+            <input type="radio" id="tab-4" name="tab-group-1">
+            <label for="tab-4">3</label>
+
+            <div class="content">
+
+          <table >
+            <tr> <th>-</th> <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>Oferta</th>
+            </tr>
+            <tr> <td>1</td> <td>-</td> <td>15</td> <td>-</td> <td>-</td> <td>15</td>
+            </tr>
+            <tr> <td>2</td> <td>-</td> <td>-</td> <td>15</td> <td>0</td> <td>25</td>
+            </tr>
+            <tr> <td>3</td> <td>5</td> <td>-</td> <td>-</td> <td>0</td> <td>10</td>
+            </tr>
+            <tr> <td>Demanda</td> <td>5</td> <td>15</td> <td>15</td> <td>15</td> <td>50/50</td>
+            </tr>
+      </table>
+            </div>
+        </div>
+
+        <div class="tab">
+            <input type="radio" id="tab-5" name="tab-group-1">
+            <label for="tab-5">4</label>
+
+            <div class="content">
+
+          <table >
+            <tr> <th>-</th> <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>Oferta</th>
+            </tr>
+            <tr> <td>1</td> <td>-</td> <td>15</td> <td>-</td> <td>-</td> <td>15</td>
+            </tr>
+            <tr> <td>2</td> <td>-</td> <td>-</td> <td>15</td> <td>0</td> <td>25</td>
+            </tr>
+            <tr> <td>3</td> <td>5</td> <td>-</td> <td>-</td> <td>5</td> <td>10</td>
+            </tr>
+            <tr> <td>Demanda</td> <td>5</td> <td>15</td> <td>15</td> <td>15</td> <td>50/50</td>
+            </tr>
+      </table>
+            </div>
+        </div>
+
+        <div class="tab">
+            <input type="radio" id="tab-6" name="tab-group-1">
+            <label for="tab-6">5</label>
+
+            <div class="content">
+
+          <table >
+            <tr> <th>-</th> <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>Oferta</th>
+            </tr>
+            <tr> <td>1</td> <td>-</td> <td>15</td> <td>-</td> <td>-</td> <td>15</td>
+            </tr>
+            <tr> <td>2</td> <td>-</td> <td>-</td> <td>15</td> <td>10</td> <td>25</td>
+            </tr>
+            <tr> <td>3</td> <td>5</td> <td>-</td> <td>-</td> <td>5</td> <td>10</td>
+            </tr>
+            <tr> <td>Demanda</td> <td>5</td> <td>15</td> <td>15</td> <td>15</td> <td>50/50</td>
+            </tr>
+      </table>
+            </div>
+        </div>
+
+
+
+      </div>
+
+            </div>
+
+
+
+            <div class="pie">
+              <p class="owo">© 2021 Gragus Inc. Derechos Reservados. Gragus Transport Model y Gragus Inc. son marcas o marcas registradas de Gragus, Inc.</p>
+            </div>
+</body>
+</html>
